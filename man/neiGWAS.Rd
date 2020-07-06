@@ -12,8 +12,8 @@ neiGWAS(
   scale,
   addcovar = NULL,
   grouping,
-  response = "quantitative",
-  model = "lmm",
+  response = c("quantitative", "binary"),
+  model = c("lmm", "lm"),
   n_core = 1L
 )
 }
@@ -24,13 +24,13 @@ neiGWAS(
 
 \item{gmap}{A matrix or data.frame including chromosome numbers in the first column, and SNP positions in the second column.}
 
-\item{smap}{A matrix showing a spatial map for individuals. The first and second column include spatial points along a x-axis and y-axis, respectively.}
+\item{smap}{A matrix showing a spatial map for individuals. The first and second column include spatial points along an x-axis and y-axis, respectively.}
 
 \item{scale}{A numeric scalar indicating the maximum spatial distance between a focal individual and neighbors to define neighbor effects.}
 
 \item{addcovar}{An optional matrix including additional non-genetic covariates. It contains no. of individuals x no. of covariates.}
 
-\item{grouping}{A integer vector assigning each individual to a group. This argument can be useful when a "smap" contains different experimental replicates. Default setting means that all individuals are belong to a single group.}
+\item{grouping}{A positive integer vector assigning each individual to a group. This argument can be useful when a "smap" contains different experimental replicates. Default setting means that all individuals are belong to a single group.}
 
 \item{response}{An option to select if the phenotype is a \code{"quantitative"} trait subject to linear models, or a \code{"binary"} trait subject to logistic models.}
 
