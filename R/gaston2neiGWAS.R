@@ -13,7 +13,7 @@
 #' @author Yasuhiro Sato (\email{sato.yasuhiro.36c@kyoto-u.jp})
 #' @import gaston
 #' @details 
-#' This function converts genotype data into -1, 0, or 1 digit as the rNeighborGWAS format. Zero indicates heterozygosites.
+#' This function converts genotype data into -1, 0, or 1 digit as the rNeighborGWAS format. Zero indicates heterozygotes.
 #' @examples
 #' data("TTN", package="gaston")
 #' x <- gaston::as.bed.matrix(TTN.gen, TTN.fam, TTN.bim)

@@ -60,7 +60,7 @@ gmap <- cbind(c(rep(1,nrow(g)/2),rep(2,nrow(g)/2)),c(1:ncol(g)))
 x <- runif(nrow(g),1,100)
 y <- runif(nrow(g),1,100)
 smap <- cbind(x,y)
-grouping <- c(rep(1,nrow(g)/2), rep(2,nrow(g)/2))
+grouping <- c(rep(1,nrow(g)/2),rep(2,nrow(g)/2))
 pheno <- nei_simu(geno=g,smap=smap,scale=44,grouping=grouping,n_causal=50,pveB=0.4,pve=0.8)
 
 fake_nei <- list()

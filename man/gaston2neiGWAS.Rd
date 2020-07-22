@@ -21,7 +21,7 @@ A list including an individual x marker matrix, a data.frame including chromosom
 A function convert a bed.matrix dataset to rNeighborGWAS genotype data.
 }
 \details{
-This function converts genotype data into -1, 0, or 1 digit as the rNeighborGWAS format. Zero indicates heterozygosites.
+This function converts genotype data into -1, 0, or 1 digit as the rNeighborGWAS format. Zero indicates heterozygotes.
 }
 \examples{
 data("TTN", package="gaston")

@@ -18,7 +18,7 @@
 #' @details
 #' This function uses mixed models via the \code{gaston} package (Perdry & Dandine-Roulland 2020).
 #' If \code{"binary"} is selected, \code{logistic.mm.aireml()} is called via the \code{gaston} package.
-#' In such a case, \code{PVEnei} below is replaced by the ratio of phenotypic variation explained (RVE) by neighbor effects as RVE_nei = \eqn{\sigma}\if{html}{\out{<sub>2</sub><sup>2</sup>}}/\eqn{\sigma}\if{html}{\out{<sub>1</sub><sup>2</sup>}} and p-values are not provided.
+#' In such a case, \code{PVEnei} below is replaced by the ratio of phenotypic variation explained (RVE) by neighbor effects as RVE_nei = \eqn{\sigma_2^2}/\eqn{\sigma_1^2} and p-values are not provided.
 #' @references
 #' Perdry H, Dandine-Roulland C. (2020) gaston: Genetic Data Handling (QC, GRM, LD, PCA) & Linear Mixed Models. https://CRAN.R-project.org/package=gaston
 #' @author Yasuhiro Sato (\email{sato.yasuhiro.36c@kyoto-u.jp})
@@ -30,7 +30,7 @@
 #' x <- runif(nrow(g),1,100)
 #' y <- runif(nrow(g),1,100)
 #' smap <- cbind(x,y)
-#' grouping <- c(rep(1,nrow(g)/2), rep(2,nrow(g)/2))
+#' grouping <- c(rep(1,nrow(g)/2),rep(2,nrow(g)/2))
 #' pheno <- nei_simu(geno=g,smap=smap,scale=44,grouping=grouping,n_causal=50,pveB=0.4,pve=0.8)
 #'
 #' fake_nei <- list()
