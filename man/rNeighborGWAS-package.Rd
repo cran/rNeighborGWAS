@@ -17,6 +17,10 @@ In the second step, we test neighbor effects, and map their association score on
 In addition to standard GWAS inputs, spatial information of individuals is required to run these analyses.
 See \code{vignette("rNeighborGWAS")} for how to use this package.
 }
+\note{
+A developer version of rNeighborGWAS is available at the GitHub reporsitory (\url{https://github.com/yassato/rNeighborGWAS}).
+If the CRAN version is out of work or you want to use the latest methods, you may install the package via GitHub.
+}
 \references{
 Sato Y, Yamamoto E, Shimizu KK, Nagano AJ (2019) Neighbor GWAS: incorporating neighbor genotypic identity into genome-wide association studies of field herbivory on \emph{Arabidopsis thaliana}. bioRxiv https://doi.org/10.1101/845735
 }
