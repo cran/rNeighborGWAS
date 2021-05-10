@@ -1,4 +1,4 @@
-cb67a6c01430323bec74f7824aa2c2e9 *DESCRIPTION
+2b4674b02a87ac12f18a2447802c3b8c *DESCRIPTION
 bc7b06f2bb3f3750bcb7a311ed71af31 *NAMESPACE
 d5a0c92944f96da59ce2ca83c9ea1efd *R/calc_PVEnei.R
 0495681ebba7a674f92e3e3997b82299 *R/delta_PVE.R
@@ -31,7 +31,7 @@ a0f730811c0e5f55410c5c999fff23b5 *man/qtl_pheno_simu.Rd
 834c97263de7d6f4da790669d0b53f0a *man/w.Rd
 f82ec9fbf3abfe236cb7fb2b1fc6040b *tests/testthat.R
 ef9174c11b4e4d8f01e91d27823f79cf *tests/testthat/test-calc_PVEnei.R
-9464147121e2636ee6e2f1e34bf222b6 *tests/testthat/test-neiGWAS.R
+3cb7caecce5637786994b4f45b4c2af3 *tests/testthat/test-neiGWAS.R
 9ba64ecc955afbf84f2b9c44354681c6 *tests/testthat/test-nei_coval.R
 a8c152b1bec551770caeaa4f8459b9ed *tests/testthat/test-nei_lm.R
 c1341c8fb43074ad68aef5ee71a91ac5 *tests/testthat/test-nei_lmm.R
